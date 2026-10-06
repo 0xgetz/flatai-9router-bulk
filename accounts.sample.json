@@ -1,0 +1,18 @@
+[
+  {
+    "email": "user1@maxxspace.com",
+    "password": "ChangeMe_123",
+    "name": "Flat AI User 1",
+    "firebase": {
+      "localId": "firebase-uid-here",
+      "idToken": "<firebase id_token JWT>",
+      "refreshToken": "<firebase refresh token>"
+    },
+    "cookies": {
+      "note": "wordpress_logged_in_*, wordpress_sec_*, mg_track_id (httpOnly)"
+    },
+    "cookieHeader": "mg_track_id=...; wordpress_sec_...=...; wordpress_logged_in_...=...",
+    "wordpress": { "userId": "50001", "loggedIn": true },
+    "mailbox": { "address": "user1@maxxspace.com", "token": "<mail.tm jwt>" }
+  }
+]

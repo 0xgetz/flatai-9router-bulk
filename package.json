@@ -1,0 +1,39 @@
+{
+  "name": "flatai-9router-bulk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bulk-create Flat AI accounts headlessly, auto-capture session cookies + Firebase tokens, and bridge the pool into 9Router as one OpenAI-compatible provider.",
+  "type": "module",
+  "bin": {
+    "flatai-register": "src/register.js",
+    "flatai-bulk": "src/bulk.js",
+    "flatai-adapter": "src/adapter.js",
+    "flatai-connect": "src/connect-9router.js"
+  },
+  "scripts": {
+    "bulk": "node src/bulk.js",
+    "adapter": "node src/adapter.js",
+    "connect": "node src/connect-9router.js",
+    "verify": "node src/verify-chat.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "flatai",
+    "9router",
+    "openai-compatible",
+    "bulk-account-creator",
+    "ai-router",
+    "llm-gateway",
+    "headless-automation",
+    "firebase-auth",
+    "session-cookies"
+  ],
+  "license": "MIT",
+  "author": "0xgetz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xgetz/flatai-9router-bulk.git"
+  }
+}

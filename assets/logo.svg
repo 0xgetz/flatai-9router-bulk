@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img" aria-label="Flat AI x 9Router Bulk Connector logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#111a35"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#6ea8fe"/>
+      <stop offset="0.55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="640" height="640" rx="140" fill="url(#bg)"/>
+  <rect x="16" y="16" width="608" height="608" rx="128" fill="none" stroke="#1e2a4a" stroke-width="2"/>
+
+  <!-- orbit rings -->
+  <g fill="none" stroke="url(#ring)" stroke-width="3" opacity="0.55">
+    <circle cx="320" cy="320" r="196" stroke-dasharray="6 14"/>
+    <circle cx="320" cy="320" r="150" opacity="0.35"/>
+  </g>
+  <circle cx="320" cy="124" r="12" fill="#38bdf8"/>
+  <circle cx="516" cy="320" r="12" fill="#a855f7"/>
+  <circle cx="320" cy="516" r="12" fill="#ec4899"/>
+  <circle cx="124" cy="320" r="12" fill="#6ea8fe"/>
+
+  <!-- central hub: bolt / F monogram -->
+  <g filter="url(#glow)">
+    <path d="M356 168 L236 348 H306 L284 472 L404 292 H334 Z"
+          fill="url(#flame)"/>
+  </g>
+  <circle cx="320" cy="320" r="176" fill="none" stroke="#2a3a63" stroke-width="2"/>
+
+  <!-- tiny connected nodes -->
+  <g fill="#8fb4ff" opacity="0.9">
+    <circle cx="452" cy="188" r="7"/>
+    <circle cx="188" cy="452" r="7"/>
+    <circle cx="188" cy="188" r="7"/>
+    <circle cx="452" cy="452" r="7"/>
+  </g>
+  <g stroke="#33456f" stroke-width="2" opacity="0.8">
+    <line x1="452" y1="188" x2="383" y2="255"/>
+    <line x1="188" y1="452" x2="257" y2="385"/>
+    <line x1="188" y1="188" x2="240" y2="240"/>
+    <line x1="452" y1="452" x2="400" y2="400"/>
+  </g>
+</svg>

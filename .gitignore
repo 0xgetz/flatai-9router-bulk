@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Captured credentials & runtime data — NEVER commit these
+accounts.json
+accounts.*.json
+!accounts.sample.json
+*.cookie
+cookies.txt
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Adapter / 9Router runtime
+9router-data/
+data/
